@@ -1,5 +1,5 @@
 {
-  "name": "node-windows",
+  "name": "node-windows-ebs",
   "version": "0.1.7",
   "description": "Support for Windows services, event logging, UAC, and several helper methods for interacting with the OS.",
   "keywords": [
@@ -24,12 +24,19 @@
   "dependencies": {
     "optimist": "~0.6.0"
   },
-  "readmeFilename": "README.md",
   "scripts": {},
   "repository": {
     "type": "git",
-    "url": "git://github.com/coreybutler/node-windows.git"
+    "url": "https://github.com/atos-ebs/node-windows"
   },
   "license": "MIT",
-  "engine": "node >= 0.10.10"
+  "engine": "node >= 0.10.10",
+  "bugs": {
+    "url": "https://github.com/atos-ebs/node-windows/issues"
+  },
+  "homepage": "https://github.com/atos-ebs/node-windows",
+  "directories": {
+    "doc": "docs",
+    "example": "example"
+  }
 }
